@@ -21,7 +21,8 @@
       "alt-left": "editor::MoveToPreviousWordStart",
       "alt-right": "editor::MoveToNextWordEnd",
       "alt-shift-left": "editor::SelectToPreviousWordStart",
-      "alt-shift-right": "editor::SelectToNextWordEnd"
+      "alt-shift-right": "editor::SelectToNextWordEnd",
+      "alt-backspace": "editor::DeleteToPreviousWordStart"
     }
   }
 ]
