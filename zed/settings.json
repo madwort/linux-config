@@ -11,13 +11,28 @@
     "dock": "right"
   },
   "base_keymap": "TextMate",
-  "ui_font_size": 16,
-  "buffer_font_size": 14,
+  "ui_font_family": "Fira Code",
+  "ui_font_size": 14,
+  "buffer_font_family": "Fira Code",
+  "buffer_font_size": 12,
   "theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "One Light",
     "dark": "Andromeda"
   },
   "soft_wrap": "preferred_line_length",
-  "preferred_line_length": 90
+  "preferred_line_length": 90,
+  "languages": {
+    "Python": {
+      "language_servers": ["ruff"],
+      "format_on_save": "on",
+      "formatter": [
+        {
+          "language_server": {
+            "name": "ruff"
+          }
+        }
+      ]
+    }
+  }
 }
