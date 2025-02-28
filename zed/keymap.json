@@ -22,7 +22,24 @@
       "alt-right": "editor::MoveToNextWordEnd",
       "alt-shift-left": "editor::SelectToPreviousWordStart",
       "alt-shift-right": "editor::SelectToNextWordEnd",
-      "alt-backspace": "editor::DeleteToPreviousWordStart"
+      "alt-backspace": "editor::DeleteToPreviousWordStart",
+      "ctrl-l": "go_to_line::Toggle",
+      "ctrl-g": "search::SelectNextMatch",
+      "cmd-l": "go_to_line::Toggle",
+      "cmd-g": "search::SelectNextMatch",
+      "cmd-c": "editor::Copy",
+      "cmd-x": "editor::Cut",
+      "cmd-v": "editor::Paste",
+      "cmd-s": "workspace::Save",
+      "cmd-w": "pane::CloseActiveItem",
+      "cmd-f": "buffer_search::Deploy",
+      "cmd-/": ["editor::ToggleComments", { "advance_downwards": false }],
+      "cmd-z": "editor::Undo",
+      "cmd-a": "editor::SelectAll",
+      "cmd-[": "editor::Outdent",
+      "cmd-]": "editor::Indent",
+      "cmd-shift-n": "workspace::NewWindow",
+      "cmd-shift-w": "workspace::CloseWindow"
     }
   }
 ]
